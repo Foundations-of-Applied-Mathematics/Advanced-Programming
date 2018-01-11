@@ -1,0 +1,53 @@
+Attendance: Students are allotted 3 free misses. Each miss after that is a 5% loss per day but there are extra problems that can be solved to overcome them.
+Learn and Go 0: Python Essentials
+Getting input from standard input and cast it as the desired item.
+Read input, cast it as a List, as a Set, as a Dict
+David’s Travelling list that was easily solved by a Set. Vending Machine Problem
+Problem Days Goals:
+We want 4 problems, ranging from Tutorial, Easy, Medium and Hard
+Each of these has a folder but we give students access via hackerrank for this semester.
+Inclass problem grade means solving one from each set.
+Potential Problems to use:
+Problem 1 (Data-Structures):  Parentheses Matching (Stack), Components in a graph (hackerrank), 
+Problem 2 (Parsing): Hackerrank Ice Cream problem, Vending Machine Problem, Recipe Problem of dependencies knowing which comes first, Modified Binary Search
+Problem 3 (Number Theory): Factor a number, Finding LCM between two, GCD of two numbers, largest/smallest prime factor, Near Miss from 1st ACM, Base Changer
+Problem 4 (strings): Cracking Coding substr water bottle. Evaluate infix using eval. Evaluate Postfix from a string.
+Problem 5 (Abstract): That Assembly problem from the ACM. Bit manipulation (XOR from 1st ACM). 
+Problem 6 (hard problem): Grid Search (Conveyor Belt) (Island Problem) (Knight’s Journey), 
+Blitz/Code Review:
+Be based strictly on the problems we recently worked on solving
+Blitz day we need to go ALL OUT!!!
+Make them hackerrank competitions. It is FREE!!!
+Use a BYUCOMPCODING account so that it can be used/accessed in the future.
+People can choose to work as individuals or as a team, but ACM rules will be enforced: teams only get one computer, individuals can NOT collaborate with others
+acme.coding.competition@gmail.com
+pirawnentrop
+ACM Week!!
+Potentially two Blitz Days, or two competitive, but non-blitzes.
+Go through a particular problem from class, go step-by-step together
+Have competitions for subsets of problems.
+Post ACM
+Week 8 (Interview Prep): Prepare for Interviews by showing examples. Andrew and Mitch on the board doing scripted examples. Go over good Interview Tips
+Establish Constraints, Ask Questions Early!!
+Mention input sanitation, be ready to code everything or nothing.
+Know your time and try to save time
+Explain a few test cases and SHOW/PROVE your code works
+Check Extreme Cases, Empty variables!
+The Good, the Bad, the Unexpected. Be ready for Critique. Get over it!!
+Week 8 Part 2:
+Go through scripted examples between Andrew and Mitch and try to have students pick out what was good and what was bad. “FREEZE mid interview and change directions or fix mistakes”
+Week 9: Proctor mock interviews with students
+Day 1) and Day 2)
+Signup for 5-10 minute slots to come do whiteboarding in front of everybody. Very small examples that are not full problems, but give students enough time to feel comfortable and confident.
+If there are too many students, we’ll split the whiteboard in half.
+Language Weeks:
+Week 10: R - stats/analysis
+Week 11: JavaScript - Web Potential - HackerRank
+Week 13: C++ - FAST - HackerRank
+Week 14: Clojure - Alternative, relatively NEW. - HackerRank
+Problems for Languages:
+Compare the Triplets (Learn and Go 0)
+Migratory Birds (Learn and Go 2)
+CamelCase (Learn and Go 4)
+Day 1) Lecture of new language, History of Language, Who uses it and why? What is it good at, what is it bad at? Then let’s talk about syntax. (How is it DIFFERENT than Python?)
+Day 2) In-class time to work on Language Primers.
