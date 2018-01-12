@@ -1,0 +1,13 @@
+This is a very popular brain teaser with many companies.
+
+Problem :
+
+We have 10 unmarked identical bottles of identical pills (each bottle can contain an infinite number of pills). Every bottle except for one of them has pills that weigh 1 gram each. One bottle of pills has pills that weigh 1.1 grams. Given a measurement scale, how would you find which bottle contains the heavier pills? You can use the scale only once.
+
+Answer: 
+
+First, arrange the bottles on shelf and now take, 1 pill from the first bottle, 2 pills from the second bottle, 3 pills from the third bottle, and so on. Ideally you would have (10)*(11)/2=55 pills weighing 55 grams, when you put the entire pile of pills on the weighing scale.The deviation from 55 g would tell you which bottle contains the heavy pills.
+
+If it is .1 gram more, it is 1st bottle which has heavy pill, if it is .2 more, gram 2nd bottle has heavy pills, if it is .3 more, gram 3rd bottle has heavy pills.
+
+Note: This can work with N number of bottles, it doesn't have to be exactly 10.

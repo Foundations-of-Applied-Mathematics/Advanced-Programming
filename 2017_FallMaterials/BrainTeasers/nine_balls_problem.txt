@@ -1,0 +1,1 @@
+Assume you have 9 identical looking balls, one of them is slightly heavier than the others, but you cannot feel it with your hand. Luckily you have a balanced scale, where you can use it to determine the relative weight, i.e. it will tell you if two things weigh the same, or if one weighs more than the other. Can you find the heavier ball by only using the scale twice?

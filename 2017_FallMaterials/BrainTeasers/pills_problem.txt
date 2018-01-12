@@ -1,0 +1,1 @@
+We have 10 unmarked identical bottles of identical pills (each bottle can contain an infinite number of pills). Every bottle except for one of them has pills that weigh 1 gram each. One bottle of pills has pills that weigh 1.1 grams. Given a measurement scale, how would you find which bottle contains the heavier pills? You can use the scale only once.

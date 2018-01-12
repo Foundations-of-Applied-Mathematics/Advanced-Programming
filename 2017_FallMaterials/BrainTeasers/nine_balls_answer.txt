@@ -1,0 +1,11 @@
+Problem:
+
+Assume you have 9 identical looking balls, one of them is slightly heavier than the others, but you cannot feel it with your hand. Luckily you have a balanced scale, where you can use it to determine the relative weight, i.e. it will tell you if two things weigh the same, or if one weighs more than the other. Can you find the heavier ball by only using the scale twice?
+
+Answer:
+
+Split the balls into three groups of three.  Choose two groups at random and weigh them on the scale:
+
+Option 1: The two groups are equal in weight. This means the third set contains the heavier ball, weigh two balls from the group, if they are the same then the heavier ball is the remaining ball. If one of them weighs more, you have found the heavier ball.
+
+Option 2: The two groups are un-equal. The heavier ball is in the group that weighs more, now similarly weigh two balls from this set and from there you can identify the heavier ball.

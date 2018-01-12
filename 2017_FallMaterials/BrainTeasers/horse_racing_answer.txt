@@ -1,0 +1,29 @@
+Problem:
+
+Suppose you are at a Horse track where 25 horses are competing. The track contains 5 lanes, meaning you can race five horses at a time. Further assume that a horse will ALWAYS run the track at the exact same speed, there is no variance for these horses. If you have no way to physically time the horses, but can only use the position results of a race, what is the minimum number of races you have to run in order to find the Top 3 fastest horses?
+
+For every race, you can choose which horses will race against each other.
+
+Answer:
+
+You can do it in precisely 7 races in all cases.
+
+Initially group the horses into groups of five, and have each group race, every group will have a list of winners, and we can write them as follows:
+
+Race 1: A1 A2 A3 A4 A5
+Race 2: B1 B2 B3 B4 B5
+Race 3: C1 C2 C3 C4 C5
+Race 4: D1 D2 D3 D4 D5
+Race 5: E1 E2 E3 E4 E5
+
+Now, A4-E4, and A5-E5 will NEVER be in the top 3, we never have to race them again.
+
+Race 6: Race the top horse from each race, A1, B1, C1, D1, E1. And without loss of generality assume that they finish in this order: A1 (1st), B1 (2nd), C1 (3rd), D1 (4th), E1 (5th).
+
+Using this information we can eliminate most of the remaining horses. Because D1 and E1 did not even reach third place in the winners race, D1-D3, E1-E3 are automatically slower than the top 3 horses. Because C1 took third place, C2 and C3 cannot be in the Top 3 results, because C1 is faster than C2 & C3, but A1, B1 are both faster than C1. So C2, C3 are also eliminated.
+Because B1 finished second, B2 may still be the third fastest horse, but B3 certainly cannot be the fastest.
+Because A1 finished first in Race 6, he is the fastest horse of them all, and so does NOT need to race again, he is first. However, A2 and A3 may still be the 2nd and third fastest.
+
+This leaves us with only 5 horses to race:
+Race 7 is composed of: A2, A3, B1, B2, C1
+The winner of this race is the 2nd fastest horse, and the horse in 2nd is the third fastest.

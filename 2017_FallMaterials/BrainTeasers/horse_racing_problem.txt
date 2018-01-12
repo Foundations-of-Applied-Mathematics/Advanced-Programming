@@ -1,0 +1,3 @@
+Suppose you are at a Horse track where 25 horses are competing. The track contains 5 lanes, meaning you can race five horses at a time. Further assume that a horse will ALWAYS run the track at the exact same speed, there is no variance for these horses. If you have no way to physically time the horses, but can only use the position results of a race, what is the minimum number of races you have to run in order to find the Top 3 fastest horses?
+
+For every race, you can choose which horses will race against each other.
