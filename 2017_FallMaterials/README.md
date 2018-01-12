@@ -1,13 +1,15 @@
 This folder contains information from the competitive coding class taught by Andrew Carr and Mitchell Probst during the BYU Fall 2017 semester. There is a [Powerpoints](https://github.com/Foundations-of-Applied-Mathematics/Advanced-Programming/tree/master/2017_FallMaterials/Powerpoints) directory that contains the slides shown to classmembers, which we did regularly at the beginning of the semester. However, as the problems became more unwieldly, we switched to working on the problems in class together.
 
-There is also a folder called [PythonFiles](https://github.com/Foundations-of-Applied-Mathematics/Advanced-Programming/tree/master/2017_FallMaterials/PythonFiles) which contain a few specific functions written to help explain some of the Learn and Gos (this is the name used for each topic, *Learn* first together with us as a class, then *Go* and code it up yourself. Last, there is a [BrainTeasers]() folder which contain the brain teasers we asked the students.
+There is also a folder called [PythonFiles](https://github.com/Foundations-of-Applied-Mathematics/Advanced-Programming/tree/master/2017_FallMaterials/PythonFiles) which contain a few specific functions written to help explain some of the Learn and Gos (this is the name used for each topic, *Learn* first together with us as a class, then *Go* and code it up yourself. Last, there is a [BrainTeasers](https://github.com/Foundations-of-Applied-Mathematics/Advanced-Programming/tree/master/2017_FallMaterials/BrainTeasers) folder which contain the brain teasers we asked the students and corresponding solutions.
 
 # Administration
 The class was setup with everything being run through Hackerrank using an e-mail account we created for this purpose:<br>
 Username: acme.coding.competition@gmail.com<br>
 Password: Ask your ACME professor.
 
-Future classes may choose to re-use the same Learn and Gos, because hackerrank will allow you to modify start/end times of a contest, however we found no way to erase the leaderboard, so it will become critical to closely track each user and their performance on the Learn and Gos.
+If you are NOT part of the BYU ACME curriculum, but want access to the Hackerrank problems that were created by us, please feel free to send either one of us an e-mail at: mitchellprobst@gmail.com or andrewcarr06@gmail.com.
+
+Future classes may choose to re-use the same Learn and Gos, because Hackerrank will allow you to modify start/end times of a contest, however we found no way to erase the leaderboard, so it will become critical to closely track each user and their performance on the Learn and Gos.
 
 The class had several core components: Discussing Problem Solving Techniques, Learn and Gos, In-class Blitzes, Interviewing Skills, and Language Projects.
 
@@ -43,42 +45,42 @@ This is a tutorial set meant to help students learn how to use Python, as we ass
 
 This Learn and Go contains numerous tutorial problems to ease students into competitive coding. Each problem can be solved very simply by just using the correct data structure.
 
-1. Migratory Birds
-2. DefaultDict Tutorial
-3. Collections.deque()
-4. Left Rotation
-5. No Idea!
+1. [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem)
+2. [DefaultDict Tutorial](https://www.hackerrank.com/challenges/defaultdict-tutorial/problem)
+3. [Collections.deque()](https://www.hackerrank.com/challenges/py-collections-deque/problem)
+4. [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation/problem)
+5. [No Idea!](https://www.hackerrank.com/challenges/no-idea/problem)
 6. Learn and Go 1-2: Sets (This problem was taken from the Rocky Mountain Regional Contest in 2015)
-7. Components in a graph (Uses something called disjoint sets)
+7. [Components in a graph](https://www.hackerrank.com/challenges/components-in-graph/problem) (Uses something called disjoint sets)
 
 ## [Learn and Go 2](https://www.hackerrank.com/learn-and-go-2) - Parsing
 
 This topic is still full of mostly simple problems, meant to ask students to begin learning how to make multiple pieces of information work together.
 
-1. Zipped! (Very important tutorial because NumPy isn't available in CC, Zipped! teaches you how to iterate over the columns of nested lists)
+1. [Zipped!](https://www.hackerrank.com/challenges/zipped/problem) (Very important tutorial because NumPy isn't available in CC, Zipped! teaches you how to iterate over the columns of nested lists)
 2. Learn and Go 2-1: Vending Machine 2 (Taken from the 2017 Winter CC hosted at BYU from Pariveda, a great problem for simple maps).
-3. Counting Valleys
-4. Missing Numbers
+3. [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)
+4. [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers/problem)
 
 ## [Learn and Go 3](https://www.hackerrank.com/learn-and-go-3) - Number Theory
 
 This Learn and Go has several problems involving primes, or other mathematical topics that almost should be solved on paper before trying to code up solutions.
 
-1. Project Euler #3: Largest prime factor
-2. Project Euler #2: Even Fibonacci numbers
-3. Project Euler #16: Power digit sum
-4. Leonardo's Prime Factors (lots of students struggled on this one)
-5. Beautiful Days at the Movies
+1. [Project Euler #3: Largest prime factor](https://www.hackerrank.com/contests/projecteuler/challenges/euler003)
+2. [Project Euler #2: Even Fibonacci numbers](https://www.hackerrank.com/contests/projecteuler/challenges/euler002)
+3. [Project Euler #16: Power digit sum](https://www.hackerrank.com/contests/projecteuler/challenges/euler016)
+4. [Leonardo's Prime Factors](https://www.hackerrank.com/challenges/leonardo-and-prime/problem) (lots of students struggled on this one)
+5. [Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
 6. Learn and Go 3-3: Mixed Bases (A problem asking students to write code to change from one base to another, including a base 1)
 
 ## [Learn and Go 4](https://www.hackerrank.com/learn-and-go-4) - Strings
 
 Python can do some neat things in String Manipulation, and strings show up often. We introduce students to some string problems.
 
-1. CamelCase
-2. Mars Exploration
-3. Super Reduced String
-4. Sherlock and the Valid String
+1. [CamelCase](https://www.hackerrank.com/challenges/camelcase/problem)
+2. [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)
+3. [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string/problem)
+4. [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)
 5. Learn and Go 4-3: 4th Grade (Problem taken from Pariveda's 2017 BYU Winter CC)*
 
 \* Although many coders warn about eval() in Python, it can be used to solve this problem in one-line.
@@ -87,48 +89,48 @@ Python can do some neat things in String Manipulation, and strings show up often
 
 This section was reserved for some of the more abstract CS concepts that ACME students likely haven't been exposed to yet. Things like Bit manipulation or implementing grid searching.
 
-1. Lonely Integer
-2. Flipping bits
-3. New Year Chaose
-4. KnightL on a Chessboard
+1. [Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer/problem)
+2. [Flipping bits](https://www.hackerrank.com/challenges/flipping-bits/problem)
+3. [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem)
+4. [KnightL on a Chessboard](https://www.hackerrank.com/challenges/knightl-on-chessboard/problem)
 
 ## [Learn and Go 6](https://www.hackerrank.com/learn-and-go-6) - Grids
 
 Coding Competitions and other interviews often give problems for grids.  Students saw an example that uses color and walks through what a grid challenge is doing. Talking about boundary checking, storing results, and possibly recursing through a grid were all mentioned.
 
-1. Grid Challenge
-2. Marking Peaks (An interview question Andrew got from a company. The challenge is to identify "peaks" in a grid where the grid is a representation of a topological map. A position is a peak if and only if it is strictly greater than adjacent points (N/S/E/W are considered adjacent).
-3. Connected Cells in a Grid
-4. The Grid Search
-5. Castle on the Grid
+1. [Grid Challenge](https://www.hackerrank.com/challenges/grid-challenge/problem)
+2. [Cavity Map](https://www.hackerrank.com/challenges/cavity-map/problem) (Andrew received this in an interview question)
+3. [Connected Cells in a Grid](https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem)
+4. [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search/problem)
+5. [Castle on the Grid](https://www.hackerrank.com/challenges/castle-on-the-grid/problem)
 
 ## [Learn and Go 7](https://www.hackerrank.com/learn-and-go-7) - Recursion
 
 We added this Learn and Go that wasn't originally planned because we felt that many students in our class weren't comfortable with recursion. We taught the difference between head recursion and tail recursion.
 
 1. Fancy Printing (A toy recursion problem Andrew built to show the class the difference between head and tail recursion)
-2. Tree: Height of a Binary Tree
-3. Fibonacci Modifies
+2. [Tree: Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem)
+3. [Fibonacci Modified](https://www.hackerrank.com/challenges/fibonacci-modified/problem)
 
 ## [Learn and Go 8](https://www.hackerrank.com/learn-and-go-8) - BFS/DFS
 
 We saved searching until after ACME students had completed their lab on Breadth-first Search, hoping that we could reinforce principles that they learned in class. Most students struggled on this challenge and only a handful actually completed one of the problems listed here.
 
-1. Snakes and Ladders: The Quickest Way Up
-2. Breadth First Search: Shortest Reach
-3. PacMan - DFS
-4. PacMan - BFS
+1. [Snakes and Ladders: The Quickest Way Up](https://www.hackerrank.com/challenges/the-quickest-way-up/problem)
+2. [Breadth First Search: Shortest Reach](https://www.hackerrank.com/challenges/bfsshortreach/problem)
+3. [PacMan - DFS](https://www.hackerrank.com/challenges/pacman-dfs)
+4. [PacMan - BFS](https://www.hackerrank.com/challenges/pacman-bfs)
 
 ## [Learn and Go 9](https://www.hackerrank.com/learn-and-go-9) - Dynamic Programming
 
 Many people have a hard time wrapping their heads around Dynamic Programming conceptually. We felt that having a Learn and Go would help students understand its usefulness. Similar to LaG 8, most students did not complete any problem, despite the instruction we gave.
 
-1. The Longeset Common Subsequence
-2. Stock Maximize
-3. Bricks Game
-4. The Longest Increasing Subsequence
-5. The Maximum Subarray
-6. Knapsack
+1. [The Longeset Common Subsequence](https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem)
+2. [Stock Maximize](https://www.hackerrank.com/challenges/stockmax/problem)
+3. [Bricks Game](https://www.hackerrank.com/challenges/play-game/problem)
+4. [The Longest Increasing Subsequence](https://www.hackerrank.com/challenges/longest-increasing-subsequent/problem)
+5. [The Maximum Subarray](https://www.hackerrank.com/challenges/maxsubarray/problem)
+6. [Knapsack](https://www.hackerrank.com/challenges/unbounded-knapsack/problem)
 
 # Blitzes
 
@@ -148,7 +150,7 @@ Contained several problems, most of which were incredibly simple, the hardest is
 
 This blitz came after LaG 5, which included a grid problem in order to assess if the students had any previous exposure to grids, we intentionally put that problem first, along with the other hard problem second to try and trip students up who just try and go down the list one at a time.
 
-1. Marking Peaks (See Learn and Go 6)
+1. [Cavity Map](https://www.hackerrank.com/challenges/cavity-map/problem) (From Learn and Go 6)
 2. Separate the Numbers
 3. Word Order
 4. "Holy" Numbers (Another trick problem, the problem never states that *N* is an integer, just that it is a number. So one test case has a decimal number like 13.46, if students cast it to an int, or round it, they get a run time error, or if they leave it as a string and check each "digit", they will attempt to check ".", which may result in a KeyError)
@@ -220,7 +222,7 @@ We spent two days teaching students about interview skills as suggested from Cra
 
 1. N time n space array
 2. Delete a node in a singly-linked list
-3. Khan number, incrementing a number where each digit is stored in a list eg. 4753 = \[4, 7, 5, 3]
+3. incrementing a number where each digit is stored in a list eg. 4753 = \[4, 7, 5, 3]
 4. Determine if a number is a Power of 10
 5. Find if a cycle exists in a singly linked list
 6. Taking the union of two lists
