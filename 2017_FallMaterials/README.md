@@ -23,8 +23,7 @@ Following the brain teasers, we spent a day teaching the Problem Solving techniq
 4. Base Case and Build (Start Small and Build Up)
 5. Data Structure Brainstorm (Will The Right Structure Simplify The Problem?)
 
-
-# Learn and Gos
+# Learn and Gos (LaG)
 
 We had 10 Learn and Gos throughout the semester, each with its own theme, such as focusing on strings, trees, recursion, grids, ...
 Every Learn and Go has at least one tutorial problem that is meant to be solved together in class, then at least 3 other problems varying in difficulty to appease to both novice programmers and experienced ones. For grading purposes, we asked the students to complete at least one non-tutorial problem to receive full credit for a Learn and Go. Each problem is considered *binary* just like the Coding Competitions, you either solve a problem or you do not. No partial credit was given. The number of points they are given reflects how difficult we felt the problems were. Students needed 10 points for full credit (which equates to one non-tutorial problem).
@@ -133,4 +132,121 @@ Many people have a hard time wrapping their heads around Dynamic Programming con
 
 # Blitzes
 
-Throughout the semester we held numerous coding competitions to try and practice techniques taught in the Learn and Gos as well as to simulate the environment of the Coding Competition (No googling, only using standard docs as references, up to 3 working together but limited to a single computer).  We had 7 blitzes throughout the semester.
+Throughout the semester we held numerous coding competitions to try and practice techniques taught in the Learn and Gos as well as to simulate the environment of the Coding Competition (No googling, only using standard docs as references, up to 3 working together but limited to a single computer).  We had 7 blitzes throughout the semester. The problems are not necessarily in order form easy to hard, as we wanted the students to have to practice assessing the difficulty level of a problem. Hackerrank lets you hide the difficulty of the challenges.
+
+## [Blitz0-2](www.hackerrank.com/blitz0-2) - From LaG 0 to LaG 2
+
+Contained several problems, most of which were incredibly simple, the hardest is Balanced Brackets, another common interview question.
+
+1. Breaking the Records
+2. CamelCase
+3. Balanced Brackets
+4. Designer PDF Viewer
+5. The Hurdle Race
+
+## [Blitz3-5](www.hackerrank.com/blitz3-5) - From LaG 3 to LaG 5
+
+This blitz came after LaG 5, which included a grid problem in order to assess if the students had any previous exposure to grids, we intentionally put that problem first, along with the other hard problem second to try and trip students up who just try and go down the list one at a time.
+
+1. Marking Peaks (See Learn and Go 6)
+2. Separate the Numbers
+3. Word Order
+4. "Holy" Numbers (Another trick problem, the problem never states that *N* is an integer, just that it is a number. So one test case has a decimal number like 13.46, if students cast it to an int, or round it, they get a run time error, or if they leave it as a string and check each "digit", they will attempt to check ".", which may result in a KeyError)
+5. Sum vs XOR
+
+## [Blitz #3](www.hackerrank.com/blitz-3) - Pre-ACM Blitz
+
+The ACM was pushed back a few weeks, so we ended up doing another blitz that was full of problems, lots of primarily simple ones.
+
+1. Summing the N series
+2. Equalize the Array
+3. Sock Merchant
+4. Special Multiple
+5. Project Euler #28: Number spiral diagonals
+6. Game of THrones - I
+7. Athlete Sort
+
+## [Blitz #4](www.hackerrank.com/blitz-4) - Pre-ACM Blitz
+
+We held this blitz on the Thursday before the ACM. Once again loaded with problems in order to encourage the students to spend more time assessing problems and carefully choosing which ones to tackle first. Because of that, many of the challenges have simple solutions
+
+1. Ice Cream Parlor
+2. Two Strings
+3. Maximizing XOR
+4. The Time in Words
+5. Weighted Uniform Strings
+6. Encryption
+7. Missing Numbers
+8. Beautiful Triplets
+9. Minimum Distances
+
+## [InterviewBlitz](www.hackerrank.com/interviewblitz) - Tackling Interview Questions
+
+This blitz is primarily composed of problems from Cracking the Coding Interview, meant to show students how they can apply their competitive coding skills to interview settings.
+
+1. One Away CtCI (This problem is written in the CtCI book, but we made it a Hackerrank problem)
+2. Cycle Detection
+3. Is This a Binary Search Tree?
+4. Bob and Ben
+
+## [BlitzHard](www.hackerrank.com/blitzhard) - Actual ACM Problems
+
+One of the items of feedback our students gave us post competition was that most of our competitions had "easy" problems, usually composed of one trick and being finished. The students asked for harder problems that reflected 'real ACM problems' during a blitz. Our choice of making them easier was primarily because our blitzes are only one hour long, but we decided to take the easiest problems from the [2017 ICPC](https://icpc.baylor.edu/worldfinals/problems) and put them into a blitz.
+
+1. Need for Speed (solved using binary search)
+2. Posterize (solved using Dynamic Programming)
+3. Secret Chamber at Mount Rushmore (solved using BFS)
+
+## [SpeedBlitz](www.hackerrank.com/speedblitz) - Coding Quickly
+
+On the last day of class we chose to implement a Speed Blitz. We included what we thought were 12 of the easiest problems from the entire semester, primarily the tutorial problems from our Learn and Gos, but a few other easy ones. We started at the top of the list and began each problem at the same time, and ranked how fast students were able to code solutions to these problems. We wanted to spend ~5 minutes on each problem in order to do many, but probably spent about ~7-8 on each instead, so we only got through 7 or 8 of them.
+
+1. Learn and Go 0-0: Lists (See LaG 0)
+2. Learn and Go 1-2: Sets (See LaG 1)
+3. Zipped! (See LaG 2)
+4. Project Euler #3: Largest prime factor (see LaG 3)
+5. CamelCase (See Blitz0-2 or LaG 4)
+6. Lonely Integer (See LaG 5)
+7. Learn and Go 2-1: Vending Machine 2 (See LaG 2)
+8. Left Rotation (See LaG 1)
+9. Counting Valleys (See LaG 2)
+10. Designer PDF Viewer (See Blitz0-2)
+11. "Holy" Numbers (See Blitz3-5)
+12. Sum vs XOR (See Blitz3-5)
+
+# Interviewing Skills
+
+We spent two days teaching students about interview skills as suggested from Cracking the Coding Interview. One of the best insights can be found in the [powerpoint](https://github.com/Foundations-of-Applied-Mathematics/Advanced-Programming/blob/master/2017_FallMaterials/Powerpoints/Behavioral%20Components%20to%20a%20Technical%20Interview.pptx) for that day, creating a matrix for answers to common interview questions related to work you have done. We also spent two class days letting students practice technical interviews with us:
+
+1. N time n space array
+2. Delete a node in a singly-linked list
+3. Khan number, incrementing a number where each digit is stored in a list eg. 4753 = \[4, 7, 5, 3]
+4. Determine if a number is a Power of 10
+5. Find if a cycle exists in a singly linked list
+6. Taking the union of two lists
+
+# Language Projects
+
+Many students in ACME have little to no experience coding, probably did not enjoy CS 142, but now can code well in Python. We wanted to introduce them to some of the more popular languages they may see, and just introduce them to the concept of applying techniques they learned in competitive coding to other languages.  For the class we taught them four different languages. Each language was supposed to have a day of instruction, and a full day of students working, but due to the fact this year's ACM Coding Competition happened on November 4th, we lost several class days. Instead we gave them 25-30 minutes of instruction and then let them work on their own.
+The languages covered was JavaScript, C++, Clojure, and R.
+
+For most language projects we expected them to solve easy challenges that they had already seen at the beginning of the semester.
+
+1. Solve Me First
+2. Compare the Triplets
+3. Migratory Birds
+
+For R, we gave them a chance to play around with the datasets and showed them how to plot data and quickly return the *moments* of the data.
+
+# References:
+
+* [ICPC Previous Problems](https://icpc.baylor.edu/worldfinals/problems)
+* [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?ie=UTF8&qid=1515782388&sr=8-1&keywords=cracking+the+coding+interview)
+* [2016 Rocky Mountain Regional ACM Contest](http://org.coloradomesa.edu/~wmacevoy/rmrc/2016/index.html)
+* [Lucid's 2016 Fall Coding Competition](https://www.hackerrank.com/contests/lccc2016/challenges)
+* [Lucid's Repository for 2016 Fall Competition](https://github.com/lucidsoftware/coding-challenge-2016f)
+* [Lucid's 2017 Fall Coding Competition](https://www.hackerrank.com/lucid-2017)
+* [Lucid's Repository for 2017 Fall Competition](https://github.com/lucidsoftware/lucid-programming-competition-2017)
+* [Pariveda's 2017 Winter Coding Competition](https://www.hackerrank.com/byu-winter-2017-programming-competition-by-pariveda)
+
+\* None of these links in this readme are maintained by us, and as such are subject to being broken in the future.
