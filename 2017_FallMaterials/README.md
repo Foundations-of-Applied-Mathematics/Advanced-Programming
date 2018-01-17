@@ -140,56 +140,56 @@ Throughout the semester we held numerous coding competitions to try and practice
 
 Contained several problems, most of which were incredibly simple, the hardest is Balanced Brackets, another common interview question.
 
-1. Breaking the Records
-2. CamelCase
-3. Balanced Brackets
-4. Designer PDF Viewer
-5. The Hurdle Race
+1. [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)
+2. [CamelCase](https://www.hackerrank.com/challenges/camelcase/problem)
+3. [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem)
+4. [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem)
+5. [The Hurdle Race](https://www.hackerrank.com/challenges/the-hurdle-race/problem)
 
 ## [Blitz3-5](www.hackerrank.com/blitz3-5) - From LaG 3 to LaG 5
 
 This blitz came after LaG 5, which included a grid problem in order to assess if the students had any previous exposure to grids, we intentionally put that problem first, along with the other hard problem second to try and trip students up who just try and go down the list one at a time.
 
 1. [Cavity Map](https://www.hackerrank.com/challenges/cavity-map/problem) (From Learn and Go 6)
-2. Separate the Numbers
-3. Word Order
+2. [Separate the Numbers](https://www.hackerrank.com/challenges/separate-the-numbers/problem)
+3. [Word Order](https://www.hackerrank.com/challenges/word-order/problem)
 4. "Holy" Numbers (Another trick problem, the problem never states that *N* is an integer, just that it is a number. So one test case has a decimal number like 13.46, if students cast it to an int, or round it, they get a run time error, or if they leave it as a string and check each "digit", they will attempt to check ".", which may result in a KeyError)
-5. Sum vs XOR
+5. [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem)
 
 ## [Blitz #3](www.hackerrank.com/blitz-3) - Pre-ACM Blitz
 
 The ACM was pushed back a few weeks, so we ended up doing another blitz that was full of problems, lots of primarily simple ones.
 
-1. Summing the N series
-2. Equalize the Array
-3. Sock Merchant
-4. Special Multiple
-5. Project Euler #28: Number spiral diagonals
-6. Game of THrones - I
-7. Athlete Sort
+1. [Summing the N series](https://www.hackerrank.com/challenges/summing-the-n-series/problem)
+2. [Equalize the Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem)
+3. [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem)
+4. [Special Multiple](https://www.hackerrank.com/challenges/special-multiple/problem)
+5. [Project Euler #28: Number spiral diagonals](https://www.hackerrank.com/contests/projecteuler/challenges/euler028)
+6. [Game of Thrones - I](https://www.hackerrank.com/challenges/game-of-thrones/problem)
+7. [Athlete Sort](https://www.hackerrank.com/challenges/python-sort-sort/problem)
 
 ## [Blitz #4](www.hackerrank.com/blitz-4) - Pre-ACM Blitz
 
 We held this blitz on the Thursday before the ACM. Once again loaded with problems in order to encourage the students to spend more time assessing problems and carefully choosing which ones to tackle first. Because of that, many of the challenges have simple solutions
 
-1. Ice Cream Parlor
-2. Two Strings
-3. Maximizing XOR
-4. The Time in Words
-5. Weighted Uniform Strings
-6. Encryption
-7. Missing Numbers
-8. Beautiful Triplets
-9. Minimum Distances
+1. [Ice Cream Parlor](https://www.hackerrank.com/challenges/icecream-parlor/problem)
+2. [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem)
+3. [Maximizing XOR](https://www.hackerrank.com/challenges/maximizing-xor/problem)
+4. [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words/problem)
+5. [Weighted Uniform Strings](https://www.hackerrank.com/challenges/weighted-uniform-string/problem)
+6. [Encryption](https://www.hackerrank.com/challenges/encryption/problem)
+7. [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers/problem)
+8. [Beautiful Triplets](https://www.hackerrank.com/challenges/beautiful-triplets/problem)
+9. [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances/problem)
 
 ## [InterviewBlitz](www.hackerrank.com/interviewblitz) - Tackling Interview Questions
 
 This blitz is primarily composed of problems from Cracking the Coding Interview, meant to show students how they can apply their competitive coding skills to interview settings.
 
 1. One Away CtCI (This problem is written in the CtCI book, but we made it a Hackerrank problem)
-2. Cycle Detection
-3. Is This a Binary Search Tree?
-4. Bob and Ben
+2. [Cycle Detection](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem)
+3. [Is This a Binary Search Tree?](https://www.hackerrank.com/challenges/is-binary-search-tree/problem)
+4. [Bob and Ben](https://www.hackerrank.com/challenges/bob-and-ben/problem)
 
 ## [BlitzHard](www.hackerrank.com/blitzhard) - Actual ACM Problems
 
@@ -203,18 +203,18 @@ One of the items of feedback our students gave us post competition was that most
 
 On the last day of class we chose to implement a Speed Blitz. We included what we thought were 12 of the easiest problems from the entire semester, primarily the tutorial problems from our Learn and Gos, but a few other easy ones. We started at the top of the list and began each problem at the same time, and ranked how fast students were able to code solutions to these problems. We wanted to spend ~5 minutes on each problem in order to do many, but probably spent about ~7-8 on each instead, so we only got through 7 or 8 of them.
 
-1. Learn and Go 0-0: Lists (See LaG 0)
-2. Learn and Go 1-2: Sets (See LaG 1)
-3. Zipped! (See LaG 2)
-4. Project Euler #3: Largest prime factor (see LaG 3)
-5. CamelCase (See Blitz0-2 or LaG 4)
-6. Lonely Integer (See LaG 5)
+1. Learn and Go 0-0: Lists (From LaG 0)
+2. Learn and Go 1-2: Sets (From LaG 1)
+3. [Zipped!](https://www.hackerrank.com/challenges/zipped/problem) (From LaG 2)
+4. [Project Euler #3: Largest prime factor](https://www.hackerrank.com/contests/projecteuler/challenges/euler003) (From LaG 3)
+5. [CamelCase](https://www.hackerrank.com/challenges/camelcase/problem) (From Blitz0-2 or LaG 4)
+6. [Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer/problem) (From LaG 5)
 7. Learn and Go 2-1: Vending Machine 2 (See LaG 2)
-8. Left Rotation (See LaG 1)
-9. Counting Valleys (See LaG 2)
-10. Designer PDF Viewer (See Blitz0-2)
-11. "Holy" Numbers (See Blitz3-5)
-12. Sum vs XOR (See Blitz3-5)
+8. [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation/problem) (From LaG 1)
+9. [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem) (From LaG 2)
+10. [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem) (From Blitz0-2)
+11. "Holy" Numbers (From Blitz3-5)
+12. [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem) (From Blitz3-5)
 
 # Interviewing Skills
 
@@ -234,9 +234,9 @@ The languages covered was JavaScript, C++, Clojure, and R.
 
 For most language projects we expected them to solve easy challenges that they had already seen at the beginning of the semester.
 
-1. Solve Me First
-2. Compare the Triplets
-3. Migratory Birds
+1. [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem)
+2. [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
+3. [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem)
 
 For R, we gave them a chance to play around with the datasets and showed them how to plot data and quickly return the *moments* of the data.
 
