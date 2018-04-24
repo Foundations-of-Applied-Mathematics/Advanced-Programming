@@ -16,6 +16,8 @@ Although the 2017 Fall Semester wasn't a pre-requisite for this class, we did as
 
 [The Vat](https://www.hackerrank.com/the-vat) was a huge collection of problems ranging from Easy-Advanced. We made each easy problem worth 3 points, medium problems worth 6, and hard problems worth 10.  There were 2 bonus advanced problems worth up to 20 points (students could earn partial credit on these assignments). Students were expected to earn 100 points by the end of the semester in order to receive full credit for the Vat.  The Vat consisted of 20% of the student's grade and so the formula used to determine the amount of points was (Points Earned by Students / 5 ).  Students could earn an additional 5% if they earned more than 100 points.
 
+**WARNING: Virtually every one of these problems have solutions available online.  It is incredibly easy for a student to have cheated on the vat in an effort to get points.  Most problems even have python solutions written in the discussion boards, so be aware that some students may attempt to copy-paste answers.**
+
 The breakdown of problems in the Vat with native hackerrank links if applicable:
 ## Easy (3 pts. each)
 
@@ -81,11 +83,11 @@ Classification is a fundamental tool for Machine Learning. Students were asked t
 
 We asked students to take the "airquality" data from pydatasets and to try and regress on Ozone.  This proved somewhat challenging because this dataset is so small, that it was hard to get consistent results. It did spur a great class conversation on learning how to clean data and knowing how to handle missing data.  Students who felt comfortable were asked to create a jupyter notebook from scratch, for those who wanted to, a "Beginner" notebook was available that helps walk them through the basic steps and prompts learning along the way.
 
-## Dimensionality Reduction
-TBD
+## [PCA (Dimensionality Reduction)](https://github.com/Foundations-of-Applied-Mathematics/Advanced-Programming/tree/master/2018_WinterMaterials/ML%20Projects/Chapter%203%20-%20PCA)
+We gave the students an opportunity to learn how dimension reduction is possible through tools like PCA.  PCA is essentially a Singular Value Decomposition for your feature data, but it can be incredibly powerful when applied to data.  We used an already fairly small dataset to give them a chance to do so.  Like other notebooks, a "Beginner" was available to help walk them through the process.  It contains less detailed information as we assume students have a better understanding of sklearn at this point.
 
-## Clustering
-TBD
+## [Clustering](https://github.com/Foundations-of-Applied-Mathematics/Advanced-Programming/tree/master/2018_WinterMaterials/ML%20Projects/Chapter%204%20-%20Clustering)
+This is the only exposure students have to unsupervised learning.  The dataset "animals" is incredibly small, and a few NaNs are missing, which we encouraged students to try and find what those values should have been by looking at resources online.  We asked them to compare the inertia of different clusters and report on the results.
 
 # Blitzes
 No competitive coding class is complete without blitzes to simulate an ACM Competition environment. We held several blitzes throughout the semester to give students additional practice.
@@ -121,12 +123,27 @@ This blitz was identical to the [Speed Blitz](https://www.hackerrank.com/speedbl
 11. "Holy" Numbers (From Blitz3-5)
 12. [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem) (From Blitz3-5)
 
-## Placeholder for March 20th Blitz
+## [Baby-Blitz](https://www.hackerrank.com/baby-blitz)
+This blitz was thrown together, a random assortment of problems that have no specific connection to each other. These problems are moderately challenging. It was so named because Mitchell's wife had her baby the weekend before this blitz.
 
-## Placeholder for April 3rd Blitz
+1. [Cipher](https://www.hackerrank.com/challenges/cipher/problem)
+2. [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem)
+3. [Count Luck](https://www.hackerrank.com/challenges/count-luck/problem)
+4. [Palindrome Index](https://www.hackerrank.com/challenges/palindrome-index/problem)
+
+## [BlitzAway](https://www.hackerrank.com/blitzaway)
+The final blitz for the semester.  We gave students problems that may have seemed challenging at first glance but actually have some elegant solutions that are not all that difficult.
+
+1. [3D Surface Area](https://www.hackerrank.com/challenges/3d-surface-area/problem)
+2. [Fair Rations](https://www.hackerrank.com/challenges/fair-rations/problem)
+3. [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations/problem)
+4. [Lisa's Workbook](https://www.hackerrank.com/challenges/lisa-workbook/problem)
 
 # Coding Competition
 
-A core component for the class is that the students participate in a coding competition. This semester, due to a scheduling conflict, the BYU ACM competition (hosted by Pariveda Solutions) was scheduled for the exact same day as the BYU SRC (Student Research Conference). Because of this conflict we gave students the opportunity to compete in the semi-annual [Hackerrank University CodeSprint](https://www.hackerrank.com/university-codesprint-4/).  Most of our students chose to do so, with the best student scoring 280th out of 5,000+ people.  Some students still managed to compete in the ACM with the best team managing to get 2nd place.
+A core component for the class is that the students participate in a coding competition. This semester, due to a scheduling conflict, the BYU ACM competition (hosted by Pariveda Solutions, link unavailable) was scheduled for the exact same day as the BYU SRC (Student Research Conference). Because of this conflict we gave students the opportunity to compete in the semi-annual [Hackerrank University CodeSprint](https://www.hackerrank.com/university-codesprint-4/).  Most of our students chose to do so, with the best student scoring 280th out of 5,000+ people.  Some students still managed to compete in the ACM with the best team achieving 2nd place.
 
 Participating in a coding competition was worth 50% of the students grade.
+
+## Websites
+Near the end of the semester we spent a couple of days asking the students to set up a website through [pages.github.com](https://pages.github.com).  We showed them [Andrew's site](https://andrewnc.github.io/) as an example to indicate that it does not have to be incredibly flashy, but that it should look like something you are proud of.
