@@ -73,7 +73,7 @@ We wanted to dedicate a portion of class giving students an opportunity to begin
 
 Each section has a *.pdf* file that gives an overall explanation for what we asked students to accomplish for each task.  We presented instructional material showing them examples of the method on alternative data sets, and asked students to submit a small write-up (usually through jupyter notebook) for code that they tried, and to provide supplemental information behind what decisions they chose (which features to use or how they opted to clean data).
 
-This was worth 20% of their total grade, 5% for each type.
+This was worth 20% of their total grade, 5% for each type. We graded primarily based on completion, there was no strict rubric set up for these projects.  The projects definitely took significantly less time than the Vat, but was worth just as much.
 
 ## [Classification](https://github.com/Foundations-of-Applied-Mathematics/Advanced-Programming/tree/master/2018_WinterMaterials/ML%20Projects/Chapter%201%20-%20Classification)
 
@@ -147,3 +147,11 @@ Participating in a coding competition was worth 50% of the students grade.
 
 ## Websites
 Near the end of the semester we spent a couple of days asking the students to set up a website through [pages.github.com](https://pages.github.com).  We showed them [Andrew's site](https://andrewnc.github.io/) as an example to indicate that it does not have to be incredibly flashy, but that it should look like something you are proud of.
+
+
+# References
+
+ * [Awesome Python Tools](https://github.com/vinta/awesome-python)
+ * [Sklearn](http://scikit-learn.org/stable/tutorial/basic/tutorial.html)
+ * [Free Bootstrap Web Templates](https://startbootstrap.com/template-categories/landing-pages/)
+ * [More Free Templates](https://www.creative-tim.com/)
