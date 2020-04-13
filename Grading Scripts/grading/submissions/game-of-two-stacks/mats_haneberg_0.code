@@ -1,0 +1,54 @@
+#!/bin/python3
+
+import os
+import sys
+
+#
+# Complete the twoStacks function below.
+#
+def twoStacks(x, a, b):
+        sumt = 0
+        i = 0
+        j = 0
+        
+        while i < len(a) and sumt + a[i] <= x:
+                sumt += a[i]
+                i += 1
+                
+        totalmoves = i
+        
+        while j < len(b) and i >= 0:
+                sumt += b[j]
+                j += 1
+                while sumt > x and i > 0:
+                        i -= 1
+                        sumt -= a[i]
+                if sumt <= x and i + j >= totalmoves:
+                        totalmoves = i + j
+                
+        return totalmoves
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        g = int(input())
+
+        for g_itr in range(g):
+                nmx = input().split()
+
+                n = int(nmx[0])
+
+                m = int(nmx[1])
+
+                x = int(nmx[2])
+
+                a = list(map(int, input().rstrip().split()))
+
+                b = list(map(int, input().rstrip().split()))
+
+                result = twoStacks(x, a, b)
+
+                fptr.write(str(result) + '\n')
+
+        fptr.close()
+

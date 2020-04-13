@@ -1,0 +1,63 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the isBalanced function below.
+def isBalanced(s):
+        # Initialize my stack
+        stack = []
+        answer = "YES"
+        
+        # Parse through the string
+        for i in range(len(s)):
+                char = s[i]
+                # append left brackets
+                if char == '(' or char == '[' or char == '{':
+                        stack.append(char)
+                # check there are left brackets to match
+                elif len(stack)==0:
+                        answer = 'NO'
+                        break
+                # match right brackets
+                elif char == ')':
+                        if stack.pop() == '(':
+                                continue
+                        else:
+                                answer = 'NO'
+                                break
+                elif char == ']':
+                        if stack.pop() == '[':
+                                continue
+                        else:
+                                answer = 'NO'
+                                break
+                elif char == '}':
+                        if stack.pop() == '{':
+                                continue
+                        else:
+                                answer = 'NO'
+                                break
+        
+        if len(stack) != 0:
+                answer = 'NO'
+                                
+        return answer        
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        t = int(input())
+
+        for t_itr in range(t):
+                s = input()
+
+                result = isBalanced(s)
+
+                fptr.write(result + '\n')
+
+        fptr.close()
+

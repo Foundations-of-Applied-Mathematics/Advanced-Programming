@@ -1,0 +1,44 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the isBalanced function below.
+def isBalanced(s):
+        length = len(s)
+        open = set(['[','(','{'])
+        closed = set(['}',')',']'])
+        D = {'{':1,'[':2,'(':3,'}':-1,']':-2,')':-3}
+        olist = []
+        clist = []
+        if length%2!=0: return "NO"
+        for n,c in enumerate(s):
+                if c in open:
+                        clist.append(c)
+                        if n+1 == length:
+                                return "NO"
+                else:
+                        if len(clist) == 0:
+                                return "NO"
+                        if D[clist.pop()] != -D[c]:
+                                return "NO"
+        return "YES"
+                        
+                
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        t = int(input())
+
+        for t_itr in range(t):
+                s = input()
+
+                result = isBalanced(s)
+
+                fptr.write(result + '\n')
+
+        fptr.close()
+

@@ -1,0 +1,43 @@
+import math
+import os
+import random
+import re
+import sys
+import itertools
+        
+def maximize(k, m, lists):
+        sum = 0
+        max = 0
+        for i in range(k):
+                for x in range(len(lists[i])):
+                        lists[i][x] = int(lists[i][x])**2
+        for element in itertools.product(*lists):
+                sum = 0             
+                for i in element:
+                        sum += i
+                sum = sum % m
+                if max < sum:
+                        max = sum
+        return(max)
+        
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        km = input().split()
+
+        k = int(km[0])
+
+        m = int(km[1])
+
+        lists = []
+
+        for _ in range(k):
+                n = input().split()
+                lists.append([i for i in n[1:len(n)]])
+
+        result = maximize(k, m, lists)
+
+        fptr.write(str(result) + '\n')
+
+        fptr.close()

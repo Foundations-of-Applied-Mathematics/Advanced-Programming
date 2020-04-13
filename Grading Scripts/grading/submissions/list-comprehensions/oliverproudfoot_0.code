@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+        x = int(input())
+        y = int(input())
+        z = int(input())
+        n = int(input())
+import itertools 
+     
+print([[k,i,j] for k, i, j in itertools.product(range(x+1), range(y+1), range(z+1)) if i+j+k!=n ])
+

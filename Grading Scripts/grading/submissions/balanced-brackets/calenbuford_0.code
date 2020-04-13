@@ -1,0 +1,45 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the isBalanced function below.
+def isBalanced(s):
+        stack = list()
+        types_dict = {bracket : i for i, bracket in enumerate("([{)]}")}
+
+        for brack in s:
+                # Push brack to stack if stack is empty or an opening bracket
+                if len(stack) == 0 or types_dict[brack] < 3:
+                        stack.append(brack)
+                
+                else:
+                        # Check if brack is the closing bracket for most recent opening bracket
+                        if types_dict[stack[-1]] == types_dict[brack]-3:
+                                stack.pop()
+                        else:
+                                return "NO"
+        
+        # If stack is not empty, one bracket never had a match
+        if len(stack) != 0:
+                return "NO"
+        return "YES"
+        
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        t = int(input())
+
+        for t_itr in range(t):
+                s = input()
+
+                result = isBalanced(s)
+
+                fptr.write(result + '\n')
+
+        fptr.close()
+

@@ -1,0 +1,51 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+# Complete the isBalanced function below.
+def isBalanced(s):
+        l_stack = list()
+        brack_dict = {'{' : '}', '[' : ']', '(' : ')'}
+        for key in brack_dict.keys():
+                if s.count(key) != s.count(brack_dict[key]):
+                        return "NO"
+        
+        for c in s:
+                print(l_stack)
+                if c in brack_dict.keys():
+                        # Put the opening brackets on the stack
+                        l_stack.append(c)
+                elif c in brack_dict.values():
+                        if brack_dict[l_stack[-1]] == c:
+                                l_stack.pop()
+                        # End prematurely becase there is not a way for it to be balanced.
+                        else:
+                                return "NO"
+                else:
+                        continue
+        # If there is something left on the stack, it's unbalanced.
+        if len(l_stack) > 0:
+                return "NO"
+        
+        return "YES"
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        t = int(input())
+
+        for t_itr in range(t):
+                s = input()
+
+                result = isBalanced(s)
+
+                fptr.write(result + '\n')
+
+        fptr.close()
+

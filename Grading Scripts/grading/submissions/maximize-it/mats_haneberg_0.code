@@ -1,0 +1,28 @@
+import itertools
+
+def maximized(arr, M):
+        newlist = []
+        maxscore = 0
+        score = 0
+        for element in itertools.product(*arr):
+                newlist.append(element)
+                
+        for i in newlist:
+                score = 0
+                for j in i:
+                        score += j**2
+                maxscore = max(score % M, maxscore % M)
+        return maxscore
+
+if __name__ == '__main__':
+        a = list(map(int, input().rstrip().split()))
+        K = a[0]
+        M = a[1]
+        arr = []
+        
+        for i in range(K):
+                N = list(map(int, input().rstrip().split()))
+                N.pop(0)
+                arr.append(N)
+                
+        print(maximized(arr, M))

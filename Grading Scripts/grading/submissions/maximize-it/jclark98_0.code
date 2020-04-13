@@ -1,0 +1,22 @@
+import itertools 
+
+K, M = [int(i) for i in input().strip().split(' ')]
+
+Ns = []
+
+for i in range(K):
+        Ns.append([int(i) for i in input().strip().split(' ')][1:])
+
+max_val = 0
+for l in itertools.product(*Ns):
+        vals = sum([x**2 for x in l]) % M
+        if    vals > max_val:
+                max_val = vals
+print(max_val)
+        
+        
+
+
+
+
+

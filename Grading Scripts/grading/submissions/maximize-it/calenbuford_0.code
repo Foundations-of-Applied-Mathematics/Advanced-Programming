@@ -1,0 +1,22 @@
+from itertools import product
+
+first_line = input().rstrip().split()
+
+K = int(first_line[0])
+M = int(first_line[1])
+
+
+
+K_lists = [map(int,input().rstrip().split()[1:]) for _ in range(K)]
+
+# print(K_lists)
+
+
+f = lambda x: x**2
+S = lambda x: sum(map(f, x)) % M
+
+print(max(map(S, product(*K_lists))))
+                
+        
+                
+        

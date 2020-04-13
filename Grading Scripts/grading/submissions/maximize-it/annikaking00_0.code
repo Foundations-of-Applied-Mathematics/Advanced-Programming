@@ -1,0 +1,36 @@
+import itertools
+def maximize(K, M, array):
+        
+        maximum = 0
+        for x_values in itertools.product(*array):
+                count = 0
+                for i in range(K):
+                        count += x_values[i] **2
+                answer = count % M
+                if answer > maximum:
+                        maximum = answer
+                        
+        return maximum
+                        
+                
+        
+        
+
+
+
+
+
+if __name__ =="__main__":
+        
+        first_line = list(map(int, input().rstrip().split()))
+        K = first_line[0]
+        M = first_line[1]
+        array = []
+        for i in range(K):
+                lists = list(map(int, input().rstrip().split()))
+                lists.pop(0)
+                array.append(lists)
+
+        print(maximize(K,M,array))
+
+

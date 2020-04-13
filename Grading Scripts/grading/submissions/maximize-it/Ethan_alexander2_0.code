@@ -1,0 +1,43 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+from itertools import product
+
+def maximizers(k,m,inputlists):
+        f = lambda x: x**2
+        
+        numlist = []
+        for listnum in range(k):
+                for numb in range(len(inputlists[listnum])):
+                        inputlists[listnum][numb] = f(inputlists[listnum][numb])
+        tuples = [c for c in product(*inputlists)]
+        listsconv = [sum(elem)%m for elem in tuples]
+     
+        maxval = max(listsconv)
+        return(maxval)
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        first_multiple_input = input().rstrip().split()
+
+        k = int(first_multiple_input[0])
+
+        m = int(first_multiple_input[1])
+
+        inputlists = []
+
+        for _ in range(k):
+                inputlists.append(list(map(int, input().rstrip().split()))[1:])
+
+        result = maximizers(k,m,inputlists)
+
+        fptr.write(str(result))
+
+        fptr.close()
+
+

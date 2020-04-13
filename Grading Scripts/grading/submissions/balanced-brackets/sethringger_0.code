@@ -1,0 +1,51 @@
+#!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the isBalanced function below.
+def isBalanced(s):
+        forward = {'{', '[', '('}
+        backward = {'}', ']', ')'}
+        
+        def type(bracket):
+                if bracket in {'{','}'}:
+                        return 'c'
+                elif bracket in {'[', ']'}:
+                        return 's'
+                elif bracket in {'(', ')'}:
+                        return 'r'
+        
+        stack = []
+        for i in s:
+                if i in forward:
+                        stack.append(i)
+                elif i in backward:
+                        if len(stack) == 0:
+                                return 'NO'
+                        if type(i) != type(stack.pop()):
+                                return 'NO'
+                        
+        
+        if len(stack) == 0:
+                return 'YES'
+        else:
+                return 'NO'
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        t = int(raw_input())
+
+        for t_itr in xrange(t):
+                s = raw_input()
+
+                result = isBalanced(s)
+
+                fptr.write(result + '\n')
+
+        fptr.close()
+

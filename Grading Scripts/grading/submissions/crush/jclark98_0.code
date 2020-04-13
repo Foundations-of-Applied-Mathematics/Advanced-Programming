@@ -1,0 +1,51 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the arrayManipulation function below.
+def arrayManipulation(n, queries):
+        arr = [0]*n
+        for q in queries:
+             
+                a = q[0]-1
+                b = q[1]
+                k = q[2]
+                
+                arr[a] += k
+                if b != len(arr):
+                        arr[b] -= k
+        
+        max_val = 0
+        place_holder = 0
+        for i in arr:
+                place_holder += i
+                if place_holder > max_val:
+                        max_val = place_holder
+                
+        
+        return max_val
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        nm = input().split()
+
+        n = int(nm[0])
+
+        m = int(nm[1])
+
+        queries = []
+
+        for _ in range(m):
+                queries.append(list(map(int, input().rstrip().split())))
+
+        result = arrayManipulation(n, queries)
+
+        fptr.write(str(result) + '\n')
+
+        fptr.close()
+

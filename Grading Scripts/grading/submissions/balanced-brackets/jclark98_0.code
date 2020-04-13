@@ -1,0 +1,37 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the isBalanced function below.
+def isBalanced(s):
+        stack = []
+        for ss in s:
+                bracket_map = {")":"(", "}":"{", "]":"["}
+                if ss in ["(", "[", "{"]:
+                        stack.append(ss)
+                else:
+                        if len(stack) == 0:
+                                return "NO"
+                        popped_ele = stack.pop(-1)
+                        if popped_ele != bracket_map[ss]:
+                                return "NO"
+        return "YES" if len(stack) == 0 else "NO"
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        t = int(input())
+
+        for t_itr in range(t):
+                s = input()
+
+                result = isBalanced(s)
+
+                fptr.write(result + '\n')
+
+        fptr.close()
+

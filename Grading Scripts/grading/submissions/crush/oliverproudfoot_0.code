@@ -1,0 +1,41 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the arrayManipulation function below.
+def arrayManipulation(n, queries):
+        operation = [0 for i in range(n)]
+        for row in queries:
+                operation[row[0]-1] +=row[2]
+                if row[1]<n:
+                        operation[row[1]]-=row[2]
+        for i,entry in enumerate(operation):
+                if i+1 > n: break
+                try:operation[i+1]+=entry
+                except: None
+        return max(operation)
+
+if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+        nm = input().split()
+
+        n = int(nm[0])
+
+        m = int(nm[1])
+
+        queries = []
+
+        for _ in range(m):
+                queries.append(list(map(int, input().rstrip().split())))
+
+        result = arrayManipulation(n, queries)
+
+        fptr.write(str(result) + '\n')
+
+        fptr.close()
+
