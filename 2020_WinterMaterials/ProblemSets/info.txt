@@ -1,0 +1,62 @@
+Here are all of the problems that I used for my class! Feel free to use some of mine, but also make it your own :)
+
+The first link is my entire compiled problem sets, but the links may break.
+The following links are the problems I included. I mostly used ones already found on hackerrank, but wrote my own for some of them.
+
+I also include notes if I had any problems with the problems. Sometimes they were problematic. I definitely reccomend solving all problems before giving them.
+
+If you have any questions, email me at tsor1313@gmail.com
+
+Data Structures: www.hackerrank.com/math-495r-data-structures
+https://www.hackerrank.com/challenges/crush
+https://www.hackerrank.com/challenges/dynamic-array
+https://www.hackerrank.com/challenges/balanced-brackets
+https://www.hackerrank.com/challenges/game-of-two-stacks
+https://www.hackerrank.com/challenges/list-comprehensions
+https://www.hackerrank.com/challenges/maximize-it
+https://www.hackerrank.com/challenges/merging-communities
+
+Strings: www.hackerrank.com/math-495r-strings
+https://www.hackerrank.com/challenges/contacts
+https://www.hackerrank.com/challenges/no-prefix-set
+https://www.hackerrank.com/challenges/strong-password
+https://www.hackerrank.com/challenges/alternating-characters
+https://www.hackerrank.com/challenges/hackerrank-in-a-string
+https://www.hackerrank.com/challenges/bear-and-steady-gene
+
+Dynamic Programming: https://www.hackerrank.com/contests/math-495r-dynamic-programming
+https://www.hackerrank.com/challenges/abbr
+https://www.hackerrank.com/challenges/fibonacci-modified
+https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence
+https://www.hackerrank.com/challenges/unbounded-knapsack
+
+
+Greedy Algorithms: https://www.hackerrank.com/math-495r-greedydynamic
+https://www.hackerrank.com/challenges/greedy-florist
+https://www.hackerrank.com/challenges/luck-balance
+https://www.hackerrank.com/challenges/angry-children
+https://www.hackerrank.com/challenges/pylons
+
+Math: www.hackerrank.com/math-495r-math
+https://www.hackerrank.com/challenges/handshake
+https://www.hackerrank.com/challenges/sherlock-and-gcd
+https://www.hackerrank.com/challenges/merge-list
+https://www.hackerrank.com/challenges/lazy-sorting
+
+Divide and Conquer: www.hackerrank.com/math-495r-divide-and-conquer
+My custom challenges. It looks like in order to include them you need moderator priveleges, so if you send me an email to tsor1313@gmail.com, I can add you as a moderator to the questions. Alternatively, all the code and generation files are in the problem set file.
+
+BFS/DFS: www.hackerrank.com/math-495r-graphs
+https://www.hackerrank.com/challenges/bfsshortreach
+Warning: the pacman problems are very finicky in ordering for grading, watch out. I gave credit to those whose code I looked at that looked correct
+https://www.hackerrank.com/challenges/pacman-bfs
+https://www.hackerrank.com/challenges/pacman-dfs
+
+Dijkstra's/Prim's: www.hackerrank.com/math-495r-graphs-2
+https://www.hackerrank.com/challenges/primsmstsub
+https://www.hackerrank.com/challenges/dijkstrashortreach
+
+Number Theory: www.hackerrank.com/math-495r-number-theory
+https://www.hackerrank.com/challenges/constructing-a-number
+https://www.hackerrank.com/challenges/identify-smith-numbers
+https://www.hackerrank.com/challenges/john-and-gcd-list

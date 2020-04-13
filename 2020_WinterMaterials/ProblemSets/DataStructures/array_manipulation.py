@@ -1,0 +1,52 @@
+# https://www.hackerrank.com/contests/math-495r-data-structures/challenges/crush/submissions/code/1319417477
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the arrayManipulation function below.
+def arrayManipulation(n, queries):
+    # array that stores differences
+    A = [0 for _ in range(n+1)]
+    # iterate through all queries
+    for a, b, k in queries:
+        # one less since problem 1-indexed
+        A[a-1] += k
+        # decrement space after since range is inclusive
+        A[b] += -k
+
+    max_so_far = 0
+    # running total
+    total = 0
+    # run through array and find maximum
+    for diff in A:
+        total += diff
+        # store max_so_far
+        max_so_far = max(max_so_far, total)
+
+    return max_so_far
+
+
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    nm = input().split()
+
+    n = int(nm[0])
+
+    m = int(nm[1])
+
+    queries = []
+
+    for _ in range(m):
+        queries.append(list(map(int, input().rstrip().split())))
+
+    result = arrayManipulation(n, queries)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
